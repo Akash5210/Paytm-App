@@ -1,0 +1,77 @@
+.footer{
+    margin-top: 175px;
+    /* padding-bottom: 140px; */
+}
+.footer .socialLogo{
+    /* margin-left: 540px; */
+    
+}
+.footer img{
+
+}
+.accordion{
+    /* --bs-accordion-active-bg: white !important;
+    --bs-accordion-btn-focus-border-color:white !important;
+    --bs-accordion-btn-active-border-color:white !important; */
+}
+.moreAccordion .accordion-button{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(66, 65, 65);
+    background-color:rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity-10));
+}
+.moreAccordion .accordion-button:not(.collapsed), #collapseTwo h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(66, 65, 65);
+    background-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity-10));
+    box-shadow: none;
+}
+.moreAccordion a.body-item-link, #collapseTwo p{
+    text-decoration: none;
+    color: rgb(95, 94, 94);
+    font-size: 13px;
+}
+.footer .bottomLineOne{
+    margin-top: 120px;
+    height: 13px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.footer .bottomLineTwo{
+    height:13px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+#collapseTwo .helpAssureTrust span{
+    font-size: 13px;
+}
+#collapseTwo .aboutUs{
+    width: 75%;
+}
+#collapseTwo .aboutUs a{
+    font-size: 12px;
+} 
+#collapseTwo .aboutUs a:hover{
+    color: rgb(29, 28, 28) !important;
+} 
+
+#collapseTwo .besafeBevigilant span{
+    color: black;
+    font-size: 13px;
+}
+#collapseTwo .besafeBevigilant img{
+    margin:20px;
+}
+
+@media screen and (max-width:992px){
+    #collapseTwo .aboutUs{
+        width: 65%;
+    }
+    #collapseTwo .becomeSeller{
+        /* width: 65%; */
+        display: inline-block;
+        margin-top: 0;
+        padding-top: 0px;
+    }
+}

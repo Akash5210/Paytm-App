@@ -1,0 +1,83 @@
+.paymentInstrument{
+    /* width: 87%; */
+    margin: 0px 0px;
+    padding: 110px 95px;
+}
+.paymentInstrument .wallet{
+    /* margin-left: 0px; */
+    padding: 75px 25px 80px 100px;
+}
+
+.wallet .adjecentChild .walletInfo1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.wallet .col .walletInfo2{
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    font-size: 17px;
+    width: 450px;
+}
+.learnMore{
+    padding:  11px 23px;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    --bs-btn-bg: #043277;
+    --bs-btn-hover-bg: #1d9feb;
+}
+.paymentInstrument .child4{
+    padding: 0;
+    border-radius: 15px ;
+} 
+.paymentInstrument .child4 .adjecentChild{
+    border-radius: 15px ;
+    padding: 76px 20px 0 60px;
+    /* width: 560px; */
+    width: 35rem;
+}
+.paymentInstrument .child4 .walletInfo2{
+    font-size: 20px ;
+}
+
+/* css for finaltial services */
+.finServices .paymentInstrument .wallet{
+    margin: 0px;
+    padding: 34px 0 0 0 !important;
+}
+
+.finServices .payMoney{
+    padding: 75px 60px 110px 88px;
+}
+
+/*css for businessServices*/
+
+.businessSer .shop{
+    /* margin-top: 0 ; */
+    padding-top: 0px !important;
+}
+.businessSer .shop .wallet{
+    margin-top: -65px !important;
+}
+.businessSer .money a.text-info:hover, .businessSer .travel a.text-info:hover{
+    color: #201f1f !important;
+}
+.businessSer .money a.invest:hover, .businessSer .travel a.money:hover{
+    background-color: #1d9feb !important;
+}
+.businessSer .money a.invest img{
+    transition: transform 0.4s;
+    overflow: hidden;
+}
+.businessSer .money a.invest img:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:992px){
+    .paymentInstrument .child4 .adjecentChild{
+        width: 47%;
+    }
+}

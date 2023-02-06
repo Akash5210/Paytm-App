@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 12px 2px 0 0 rgba(0, 0, 0, 0.1); */
+}
+.navLink{
+    font-family: Inter,sans-serif;
+    color: rgb(24, 24, 24);
+    font-weight: 550;
+    font-size: 17px;
+}
+#signIn{
+    background-color: rgb(45, 165, 212);
+    color: white;
+    /* padding: 7px 40px 7px 17px; */
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+#signIn:hover{
+    background-color: rgb(6, 15, 129);
+}

@@ -1,0 +1,52 @@
+.kyc{
+    /* box-shadow: 5px 0 0 0 rgba(0, 0, 0, 0.2); */
+    margin-top: -8px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    /* margin-bottom: 5px; */
+    /* display: block; */
+}
+.mostLoved{
+    margin-top: 115px;
+    margin-bottom: 80px;
+}
+.mostLoved h1{
+    font-size: 3.5rem;
+    font-weight:700;
+    /* line-height: 65px; */
+}
+.mostLoved .col p{
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    width: 450px;
+}
+.rechargeAndBook .recharge{
+    background-color: rgb(40, 163, 245);
+    padding: 65px 50px;
+}
+.rechargeAndBook  .recharge  a, .rechargeAndBook  .andBook  a{
+    color: white;
+    text-decoration: none !important;
+    font-weight: 300;
+    /* display: inline-block; */
+    width: 100%;
+    
+}
+.rechargeAndBook .recharge .btn-outline-primary {
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #458af1;
+} 
+.rechargeAndBook  .andBook  a{
+    font-size: 18px;
+}
+.rechargeAndBook .andBook{
+    background-color: #14376d;
+    padding: 65px 50px;
+}
+.rechargeAndBook .andBook .btn-outline-primary {
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b2b5a;
+} 
